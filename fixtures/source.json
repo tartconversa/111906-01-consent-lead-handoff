@@ -1,0 +1,137 @@
+{
+  "stages": [
+    {
+      "cards": [
+        {
+          "id": "L-101",
+          "visitor": "V-1",
+          "name": "林一",
+          "email": "family@example.test",
+          "phone": "000-101",
+          "trip": "春节"
+        },
+        {
+          "id": "L-102",
+          "visitor": "V-2",
+          "name": "林二",
+          "email": "family@example.test",
+          "phone": "000-102",
+          "trip": "暑假"
+        },
+        {
+          "id": "L-103",
+          "visitor": "V-1",
+          "name": "林一",
+          "email": "family@example.test",
+          "phone": "000-101",
+          "trip": "秋季"
+        }
+      ],
+      "consents": {
+        "L-101": {
+          "version": "c1",
+          "A": [
+            "email",
+            "phone"
+          ],
+          "B": [
+            "email"
+          ]
+        },
+        "L-102": {
+          "version": "c1",
+          "A": [
+            "email"
+          ]
+        },
+        "L-103": {
+          "version": "c1",
+          "B": [
+            "phone"
+          ]
+        }
+      },
+      "reject": [
+        "L-102"
+      ],
+      "stop_confirm": false
+    },
+    {
+      "cards": [
+        {
+          "id": "L-101",
+          "visitor": "V-1",
+          "name": "林一",
+          "email": "family@example.test",
+          "phone": "000-101",
+          "trip": "春节"
+        },
+        {
+          "id": "L-102",
+          "visitor": "V-2",
+          "name": "林二",
+          "email": "family@example.test",
+          "phone": "000-102",
+          "trip": "暑假"
+        },
+        {
+          "id": "L-103",
+          "visitor": "V-1",
+          "name": "林一",
+          "email": "family@example.test",
+          "phone": "000-101",
+          "trip": "秋季"
+        }
+      ],
+      "consents": {
+        "L-101": {
+          "version": "c2",
+          "A": [
+            "email"
+          ],
+          "B": [
+            "email"
+          ]
+        },
+        "L-102": {
+          "version": "c2",
+          "A": [
+            "email"
+          ]
+        },
+        "L-103": {
+          "version": "c2",
+          "B": []
+        }
+      },
+      "reject": [],
+      "stop_confirm": false
+    },
+    {
+      "cards": [],
+      "consents": {
+        "L-101": {
+          "version": "c2",
+          "A": [
+            "email"
+          ],
+          "B": [
+            "email"
+          ]
+        },
+        "L-102": {
+          "version": "c2",
+          "A": [
+            "email"
+          ]
+        },
+        "L-103": {
+          "version": "c2",
+          "B": []
+        }
+      },
+      "reject": [],
+      "stop_confirm": true
+    }
+  ]
+}
